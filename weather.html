@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- Student Name: GIRI,SUNITA
+     Student_id: 1001339980
+     Project name:weather web application
+     Project_no: 1
+     Project due_date :18th october 2016
+     API key:0a1cb49a2749f50f5e989ecdd3e12a7b
+      -->
+<html lang="en">
+  <head>
+    <title>A Weather Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="weather.js"></script>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <h2> Weather Forcast of your city </h2>
+  <body onload="initialize();">
+    <form name="myform" >
+       <label>City: <input type="text" id="form-input"/></label>
+       <input id ="mysubmit" type="button" onclick="sendRequest();"  value="Display Info" />
+    </form>
+  
+  
+  <div id="tablediv"  style="display:none">
+  <table style="width:100" cellspacing="10" border="0">
+      
+       <tr>
+         
+        
+          <td><div id="city"></div></td>
+        </tr>
+
+       <tr> 
+        <td>Latitude</td>
+        <td><div id = "lat"></div></td>
+        <td> degree</td>
+      </tr>
+
+
+       <tr>
+         
+        <td>Longitude</td>
+          <td><div id="lon"></div></td>
+           <td> degree</td>
+        </tr>
+        
+       <tr> 
+         <td>Sunset time</td>
+          <td><div id = "sunset"></div></td>
+          <td>central daylight time(CDT)</td>
+      </tr>
+
+       <tr> 
+         <td>Sunrise time</td>
+          <td><div id = "sunrise"></div></td>
+          <td>central daylight time(CDT)</td>
+      </tr>
+
+        <tr>
+         
+        <td>Pressure</td>
+          <td><div id = "pressure"></div></td>
+          <td>MB</td>
+        </tr>
+        
+       <tr> 
+           <td>Temperature</td>
+              <td><div id = "temp"></div></td>
+              <td> fahrenheit</td>
+      </tr>
+
+          <tr> 
+            <td>Humidity</td>
+              <td><div id = "humidity"></div></td>
+               <td> %</td>
+      </tr>
+      </tr>
+
+         <tr> 
+             <td>minimum Temperature</td>
+            <td><div id = "temp_min"></div></td>
+             <td> fahrenheit</td>
+      </tr>
+        
+      </tr>
+
+       <tr> 
+    
+      <td>maximum temperature</td>
+            <td><div id = "temp_max"></div></td>
+             <td> fahrenheit</td>
+      </tr>
+
+        
+      </tr>
+
+
+       <tr> 
+    
+      <td>Clouds</td>
+              <td><div id = "all"></div></td>
+              <td>%</td>
+
+
+        
+      </tr>
+
+
+           <tr> 
+    
+      <td>Visibility</td>
+              <td><div id = "description"></div></td>
+              
+
+
+        
+      </tr>
+
+      
+      
+      
+  
+  
+
+    </table>
+
+</div>
+
+  <div id= "greeting"></div>
+   <div id= "greeting1"></div>
+
+  
+
+  
+  </body>
+</html>

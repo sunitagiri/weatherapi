@@ -1,0 +1,144 @@
+body {
+    background-image: url("download.jpg");
+    height:100%;
+
+ 
+    
+}
+
+html{
+	height:100%;
+}
+h2{
+	text-align:center;
+}
+
+
+
+#city{
+	float:left;
+	margin-left:200px;
+vertical-align: middle;
+font-weight: bold;
+
+font-size:25px;
+
+
+}
+
+#lat{
+	text-align: center;
+vertical-align: middle;x
+}
+
+#lon{
+	text-align: center;
+vertical-align: middle;
+}
+
+#sunset{
+	text-align: center;
+vertical-align: middle;
+}
+
+#sunrise{
+	text-align: center;
+vertical-align: middle;
+}
+
+#pressure{
+	text-align: center;
+vertical-align: middle;
+}
+
+
+#temp{
+	text-align: center;
+vertical-align: middle;
+}
+
+#humidity{
+	text-align: center;
+vertical-align: middle;
+}
+
+#temp_min{
+	text-align: center;
+vertical-align: middle;
+}
+
+#temp_max{
+	text-align: center;
+vertical-align: middle;
+}
+
+#all{
+	text-align: center;
+vertical-align: middle;
+}
+
+#description{
+	text-align: center;
+vertical-align: middle;
+}
+
+#greeting{
+	 margin: 0px auto;     
+	text-align: center;
+vertical-align: middle;
+font-weight: bold;
+font-style: oblique;
+font-family: inherit;
+font-size: 20px;
+color:#B22222;
+}
+
+#greeting1{
+		 margin: 0px auto;     
+	text-align: center;
+vertical-align: middle;
+font-weight: bold;
+font-style: oblique;
+font-family: inherit;
+font-size: 20px;
+color:#B22222;
+}
+
+
+td:first-child{
+	font-weight: bold;
+	font-size:20;
+}
+
+form{
+
+	  margin: 10px auto;    
+	text-align: center;
+     	
+}
+td{
+	padding:1px;
+}
+
+
+table {
+    margin: 0px auto; 
+    background-color: #F0FFFF ;
+    width:500px;
+    height:90%;  
+    table-layout: fixed;
+    
+   
+}​
+
+td:hover{
+
+}
+
+
+   tr:hover {
+          background-color: #00FFFF;
+        }
+
+tr:nth-child(even) {background-color: 	#ADD8E6
+}
